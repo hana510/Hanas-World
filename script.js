@@ -1,6 +1,6 @@
-$("body").hide();
+// $("body").hide();
 
-let password = prompt("Enter password");
+let password = prompt("EnTeR pAsSwOrD");
 
 if (password === 'hanabana2010') {
     $("body").show();
