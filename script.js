@@ -1,4 +1,4 @@
-// $("body").hide();
+$("body").hide();
 
 let password = prompt("EnTeR pAsSwOrD");
 
