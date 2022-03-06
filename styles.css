@@ -6,10 +6,11 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border: 1px solid #89b0ae;
 }
 
-.purple-text {
-    color: #BB33FF;
+.green-text {
+    color: #bee3db;
 }
 
 img {
