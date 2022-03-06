@@ -1,13 +1,13 @@
-// $("body").hide();
+$("body").hide();
 
 let password = prompt("EnTeR pAsSwOrD");
 
-if (password === 'hanabana2010') {
+if (password === 'hanaisthecoolest') {
     $("body").show();
 }
 
-$(".purple-text").hover(
+$(".green-text").hover(
     function(){
-		$( this ).css("color","#77ff33");
+		$( this ).css("color","#ffd6ba");
     }        
 );
