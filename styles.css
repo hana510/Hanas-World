@@ -1,0 +1,18 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.center-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.purple-text {
+    color: #BB33FF;
+}
+
+img {
+    width: 200px;
+}
+
