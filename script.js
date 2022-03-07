@@ -1,4 +1,6 @@
-$("body").hide();
+// $("body").hide();
+
+$(".heart").hide();
 
 let password = prompt("EnTeR pAsSwOrD");
 
@@ -20,4 +22,10 @@ $(".green-text").hover(
         }
 		
     }        
+);
+
+$(".pic").click(
+	function(){
+    	$( this ).siblings().show();
+    }
 );
