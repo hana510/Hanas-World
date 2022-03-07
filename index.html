@@ -2,8 +2,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&amp;display=swap" rel="stylesheet">
-        <title>Hana's World</title>
-    <script>function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+        <script>function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 /*! jQuery v3.6.0 | (c) OpenJS Foundation and other contributors | jquery.org/license */
 !function (e, t) {
@@ -4044,7 +4043,9 @@
   return S.noConflict = function (e) {
     return C.$ === S && (C.$ = Gt), e && C.jQuery === S && (C.jQuery = Vt), S;
   }, "undefined" == typeof e && (C.jQuery = C.$ = S), S;
-});</script><style>body {
+});</script><script src="https://unpkg.com/feather-icons"></script>
+        <title>Hana's World</title>
+    <style>body {
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -4056,7 +4057,11 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    border: 4px solid #bee3db;
+}
+
+.pics {
+	border: 4px solid #bee3db;
+    border-radius: 12px;
 }
 
 .green-text {
@@ -4067,6 +4072,10 @@ img {
     width: 200px;
 }
 
+.heart {
+    width: 25px;
+}
+
 </style></head>
     <body>
     	<div class="center-container">
@@ -4075,11 +4084,23 @@ img {
 		<div class="center-container">
             <h1>my <span class="green-text">art</span></h1>
         </div>
-        <div class="center-container">
-            <img src="https://i.imgur.com/mX94QwF.jpg">
-            <img src="https://i.imgur.com/cBbyyY5.jpg">
-            <img src="https://i.imgur.com/TEuuMxW.jpg">
-            <img src="https://i.imgur.com/RFwuVTx.jpg">
+        <div class="center-container pics">
+            <div>
+            	<img class="pic" src="https://i.imgur.com/mX94QwF.jpg">
+            	<img class="heart" src="https://i.imgur.com/gPeHZNn.png">
+            </div>
+            <div>
+            	<img class="pic" src="https://i.imgur.com/cBbyyY5.jpg">
+            	<img class="heart" src="https://i.imgur.com/gPeHZNn.png">
+            </div>
+            <div>
+            	<img class="pic" src="https://i.imgur.com/TEuuMxW.jpg">
+                <img class="heart" src="https://i.imgur.com/gPeHZNn.png">
+            </div>
+            <div>
+            	<img class="pic" src="https://i.imgur.com/RFwuVTx.jpg">
+            	<img class="heart" src="https://i.imgur.com/gPeHZNn.png">
+            </div>
         </div>
         <div class="center-container">
             <p>this site was made by Hana</p>
@@ -4087,7 +4108,8 @@ img {
     
 <script>
 /*__POPCODESTART__*/
-$("body").hide();
+// $("body").hide();
+$(".heart").hide();
 var password = prompt("EnTeR pAsSwOrD");
 
 if (password === 'hanaisthecoolest') {
@@ -4103,4 +4125,7 @@ $(".green-text").hover(function () {
     $(this).css("color", "#bee3db");
   }
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJoaWRlIiwicGFzc3dvcmQiLCJwcm9tcHQiLCJzaG93IiwiaG92ZXIiLCJjc3MiXSwibWFwcGluZ3MiOiJBQUFBQSxDQUFDLENBQUMsTUFBRCxDQUFELENBQVVDLElBQVY7QUFFQSxJQUFJQyxRQUFRLEdBQUdDLE1BQU0sQ0FBQyxnQkFBRCxDQUFyQjs7QUFFQSxJQUFJRCxRQUFRLEtBQUssa0JBQWpCLEVBQXFDO0FBQ2pDRixFQUFBQSxDQUFDLENBQUMsTUFBRCxDQUFELENBQVVJLElBQVY7QUFDSDs7QUFFREosQ0FBQyxDQUFDLGFBQUQsQ0FBRCxDQUFpQkssS0FBakIsQ0FDSSxZQUFVO0FBQ047QUFDQTtBQUNBLE1BQUdMLENBQUMsQ0FBRSxJQUFGLENBQUQsQ0FBVU0sR0FBVixDQUFjLE9BQWQsTUFBMkIsb0JBQTlCLEVBQ0E7QUFDSU4sSUFBQUEsQ0FBQyxDQUFFLElBQUYsQ0FBRCxDQUFVTSxHQUFWLENBQWMsT0FBZCxFQUFzQixTQUF0QjtBQUNILEdBSEQsTUFLQTtBQUNJTixJQUFBQSxDQUFDLENBQUUsSUFBRixDQUFELENBQVVNLEdBQVYsQ0FBYyxPQUFkLEVBQXNCLFNBQXRCO0FBQ0g7QUFFSixDQWJMIiwic291cmNlc0NvbnRlbnQiOlsiJChcImJvZHlcIikuaGlkZSgpO1xuXG5sZXQgcGFzc3dvcmQgPSBwcm9tcHQoXCJFblRlUiBwQXNTd09yRFwiKTtcblxuaWYgKHBhc3N3b3JkID09PSAnaGFuYWlzdGhlY29vbGVzdCcpIHtcbiAgICAkKFwiYm9keVwiKS5zaG93KCk7XG59XG5cbiQoXCIuZ3JlZW4tdGV4dFwiKS5ob3ZlcihcbiAgICBmdW5jdGlvbigpe1xuICAgICAgICAvLyQoIHRoaXMgKS5jc3MoXCJjb2xvclwiLFwiI2ZmZDZiYVwiKTtcbiAgICAgICAgLy9hbGVydChcIkJhY2tncm91bmQgY29sb3IgPSBcIiArICQodGhpcykuY3NzKFwiY29sb3JcIikpO1xuICAgICAgICBpZigkKCB0aGlzICkuY3NzKFwiY29sb3JcIikgPT09IFwicmdiKDE5MCwgMjI3LCAyMTkpXCIpXG4gICAgICAgIHtcbiAgICAgICAgICAgICQoIHRoaXMgKS5jc3MoXCJjb2xvclwiLFwiI2ZmZDZiYVwiKTtcbiAgICAgICAgfVxuICAgICAgICBlbHNlXG4gICAgICAgIHtcbiAgICAgICAgICAgICQoIHRoaXMgKS5jc3MoXCJjb2xvclwiLFwiI2JlZTNkYlwiKTtcbiAgICAgICAgfVxuXHRcdFxuICAgIH0gICAgICAgIFxuKTsiXX0=</script></body></html>
+$(".pic").click(function () {
+  $(this).siblings().show();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJoaWRlIiwicGFzc3dvcmQiLCJwcm9tcHQiLCJzaG93IiwiaG92ZXIiLCJjc3MiLCJjbGljayIsInNpYmxpbmdzIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUVBQSxDQUFDLENBQUMsUUFBRCxDQUFELENBQVlDLElBQVo7QUFFQSxJQUFJQyxRQUFRLEdBQUdDLE1BQU0sQ0FBQyxnQkFBRCxDQUFyQjs7QUFFQSxJQUFJRCxRQUFRLEtBQUssa0JBQWpCLEVBQXFDO0FBQ2pDRixFQUFBQSxDQUFDLENBQUMsTUFBRCxDQUFELENBQVVJLElBQVY7QUFDSDs7QUFFREosQ0FBQyxDQUFDLGFBQUQsQ0FBRCxDQUFpQkssS0FBakIsQ0FDSSxZQUFVO0FBQ047QUFDQTtBQUNBLE1BQUdMLENBQUMsQ0FBRSxJQUFGLENBQUQsQ0FBVU0sR0FBVixDQUFjLE9BQWQsTUFBMkIsb0JBQTlCLEVBQ0E7QUFDSU4sSUFBQUEsQ0FBQyxDQUFFLElBQUYsQ0FBRCxDQUFVTSxHQUFWLENBQWMsT0FBZCxFQUFzQixTQUF0QjtBQUNILEdBSEQsTUFLQTtBQUNJTixJQUFBQSxDQUFDLENBQUUsSUFBRixDQUFELENBQVVNLEdBQVYsQ0FBYyxPQUFkLEVBQXNCLFNBQXRCO0FBQ0g7QUFFSixDQWJMO0FBZ0JBTixDQUFDLENBQUMsTUFBRCxDQUFELENBQVVPLEtBQVYsQ0FDQyxZQUFVO0FBQ05QLEVBQUFBLENBQUMsQ0FBRSxJQUFGLENBQUQsQ0FBVVEsUUFBVixHQUFxQkosSUFBckI7QUFDQSxDQUhMIiwic291cmNlc0NvbnRlbnQiOlsiLy8gJChcImJvZHlcIikuaGlkZSgpO1xuXG4kKFwiLmhlYXJ0XCIpLmhpZGUoKTtcblxubGV0IHBhc3N3b3JkID0gcHJvbXB0KFwiRW5UZVIgcEFzU3dPckRcIik7XG5cbmlmIChwYXNzd29yZCA9PT0gJ2hhbmFpc3RoZWNvb2xlc3QnKSB7XG4gICAgJChcImJvZHlcIikuc2hvdygpO1xufVxuXG4kKFwiLmdyZWVuLXRleHRcIikuaG92ZXIoXG4gICAgZnVuY3Rpb24oKXtcbiAgICAgICAgLy8kKCB0aGlzICkuY3NzKFwiY29sb3JcIixcIiNmZmQ2YmFcIik7XG4gICAgICAgIC8vYWxlcnQoXCJCYWNrZ3JvdW5kIGNvbG9yID0gXCIgKyAkKHRoaXMpLmNzcyhcImNvbG9yXCIpKTtcbiAgICAgICAgaWYoJCggdGhpcyApLmNzcyhcImNvbG9yXCIpID09PSBcInJnYigxOTAsIDIyNywgMjE5KVwiKVxuICAgICAgICB7XG4gICAgICAgICAgICAkKCB0aGlzICkuY3NzKFwiY29sb3JcIixcIiNmZmQ2YmFcIik7XG4gICAgICAgIH1cbiAgICAgICAgZWxzZVxuICAgICAgICB7XG4gICAgICAgICAgICAkKCB0aGlzICkuY3NzKFwiY29sb3JcIixcIiNiZWUzZGJcIik7XG4gICAgICAgIH1cblx0XHRcbiAgICB9ICAgICAgICBcbik7XG5cbiQoXCIucGljXCIpLmNsaWNrKFxuXHRmdW5jdGlvbigpe1xuICAgIFx0JCggdGhpcyApLnNpYmxpbmdzKCkuc2hvdygpO1xuICAgIH1cbik7Il19</script></body></html>
